@@ -14,8 +14,8 @@ video {
   padding: 2rem;
   border-radius: 0.5rem;
 }
-.mw-48 {
-  max-width: 48rem;
+.container {
+  max-width: 70rem;
   margin: 0 auto;
   padding: 1rem;
 }
