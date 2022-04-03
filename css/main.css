@@ -9,15 +9,27 @@ video {
   display: flex;
   gap: 1rem;
 }
+.cardcontent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: center;
+  justify-content: center;
+}
 .card {
   overflow: hidden;
   box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
   border-radius: 0.5rem;
 }
 .card p,
-h3 {
-  padding: 1rem;
+h3,
+a {
+  padding: 0.5rem;
 }
+.card h3 {
+  text-align: center;
+}
+
 .container {
   max-width: 70rem;
   margin: 0 auto;
@@ -42,6 +54,16 @@ h3 {
 .hero > * {
   max-width: 75ch;
 }
+a.button {
+  background-color: beige;
+  border-radius: 00.5rem;
+  border-color: brown;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  text-decoration: none;
+}
+a.button:hover {
+}
 
 /* Mobile Only Styles */
 @media (max-width: 47.9375em) {
@@ -54,6 +76,9 @@ h3 {
   }
   .container {
     justify-content: center;
+  }
+  a.button:active {
+    background-color: brown;
   }
 }
 
