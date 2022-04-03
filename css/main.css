@@ -65,6 +65,18 @@ a.button {
 a.button:hover {
 }
 
+.faq:target {
+  background: lightblue;
+}
+
+.a p {
+  display: none;
+}
+
+.faq:target + .a p {
+  display: block;
+}
+
 /* Mobile Only Styles */
 @media (max-width: 47.9375em) {
   .flex {
