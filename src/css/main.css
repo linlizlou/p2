@@ -14,8 +14,9 @@ video {
   box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
   border-radius: 0.5rem;
 }
-.card p {
-  padding: 2rem;
+.card p,
+h3 {
+  padding: 1rem;
 }
 .container {
   max-width: 70rem;
@@ -24,19 +25,32 @@ video {
 }
 .hero {
   min-height: 100vh;
-  background-image: url(https://unsplash.com/photos/yETqkLnhsUI);
-  background-position: bottom;
+  background-image: url(../images/electric.jpg);
+  background-position: center 60%;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: antiquewhite;
+  font-size: 150%;
+  line-height: ;
+  text-align: center;
+  padding: 1rem;
+  padding-top: 4rem;
+}
+.hero > * {
+  max-width: 75ch;
 }
 
 /* Mobile Only Styles */
 @media (max-width: 47.9375em) {
   .flex {
     flex-direction: column;
+    align-items: center;
   }
   .card {
-    max-width: 30rem;
+    max-width: 25rem;
   }
   .container {
     justify-content: center;
@@ -47,5 +61,7 @@ video {
 @media (min-width: 48em) {
   .flex > * {
     width: 100%;
+  }
+  .hero h1 {
   }
 }
