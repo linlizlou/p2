@@ -10,20 +10,36 @@ video {
   gap: 1rem;
 }
 .card {
+  overflow: hidden;
   box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
-  padding: 2rem;
   border-radius: 0.5rem;
+}
+.card p {
+  padding: 2rem;
 }
 .container {
   max-width: 70rem;
   margin: 0 auto;
   padding: 1rem;
 }
+.hero {
+  min-height: 100vh;
+  background-image: url(https://unsplash.com/photos/yETqkLnhsUI);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /* Mobile Only Styles */
 @media (max-width: 47.9375em) {
   .flex {
     flex-direction: column;
+  }
+  .card {
+    max-width: 30rem;
+  }
+  .container {
+    justify-content: center;
   }
 }
 
