@@ -119,6 +119,23 @@ p {
   color: orange;
 }
 
+h4 {
+  padding: 0.5rem 4rem 0.5rem 4rem;
+}
+
+.gridpic {
+  max-width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+}
+
+figcaption {
+  padding: 0rem 6rem 0.5rem 6rem;
+  font-size: 00.85rem;
+}
+
 /* Mobile Only Styles */
 @media (max-width: 47.9375em) {
   .flex {
