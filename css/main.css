@@ -143,6 +143,21 @@ figcaption {
   padding-left: 1rem;
 }
 
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+
+footer > * {
+  color: white;
+}
 /* Mobile Only Styles */
 @media (max-width: 47.9375em) {
   .flex {
