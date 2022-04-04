@@ -9,6 +9,8 @@ video {
   display: flex;
   gap: 1rem;
 }
+nav > img {
+}
 .cardcontent {
   display: flex;
   flex-direction: column;
@@ -77,6 +79,46 @@ a.button:hover {
   display: block;
 }
 
+h2 {
+  padding: 2rem;
+  text-align: center;
+}
+
+p {
+  padding: 0.5rem 4rem 0.5rem 4rem;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list .list-item {
+  display: inline-block;
+  padding: 0.5rem 0.5rem;
+}
+
+.logo {
+  max-width: 12%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: orange;
+}
+
 /* Mobile Only Styles */
 @media (max-width: 47.9375em) {
   .flex {
@@ -92,6 +134,15 @@ a.button:hover {
   a.button:active {
     background-color: brown;
   }
+  .fa-solid {
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 7%;
+  }
+  .navbar {
+    flex-direction: column;
+  }
 }
 
 /* Desktop Only Styles */
@@ -100,5 +151,8 @@ a.button:hover {
     width: 100%;
   }
   .hero h1 {
+  }
+  .fa-solid {
+    display: none;
   }
 }
