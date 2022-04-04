@@ -106,10 +106,6 @@ p {
   padding: 0.5rem 0.5rem;
 }
 
-.logo {
-  max-width: 12%;
-}
-
 .navbar a {
   color: white;
   text-decoration: none;
@@ -136,6 +132,10 @@ figcaption {
   font-size: 00.85rem;
 }
 
+.faqarticle {
+  padding: 0rem 7rem 1rem 7rem;
+}
+
 /* Mobile Only Styles */
 @media (max-width: 47.9375em) {
   .flex {
@@ -160,6 +160,10 @@ figcaption {
   .navbar {
     flex-direction: column;
   }
+  .logo {
+    max-width: 25%;
+    min-width: 20%;
+  }
 }
 
 /* Desktop Only Styles */
@@ -171,5 +175,8 @@ figcaption {
   }
   .fa-solid {
     display: none;
+  }
+  .logo {
+    max-width: 15%;
   }
 }
